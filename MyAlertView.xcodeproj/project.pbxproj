@@ -15,6 +15,7 @@
 		007BE9AA1B8B097900E9D02A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007BE9A91B8B097900E9D02A /* Images.xcassets */; };
 		007BE9AD1B8B097900E9D02A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007BE9AB1B8B097900E9D02A /* LaunchScreen.xib */; };
 		007BE9B91B8B097900E9D02A /* MyAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BE9B81B8B097900E9D02A /* MyAlertViewTests.m */; };
+		007BE9C71B8B0DEC00E9D02A /* MyDefineAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BE9C61B8B0DEC00E9D02A /* MyDefineAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		007BE9B21B8B097900E9D02A /* MyAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		007BE9B71B8B097900E9D02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		007BE9B81B8B097900E9D02A /* MyAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewTests.m; sourceTree = "<group>"; };
+		007BE9C51B8B0DEC00E9D02A /* MyDefineAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDefineAlertView.h; sourceTree = "<group>"; };
+		007BE9C61B8B0DEC00E9D02A /* MyDefineAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDefineAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				007BE99E1B8B097900E9D02A /* AppDelegate.m */,
 				007BE9A31B8B097900E9D02A /* ViewController.h */,
 				007BE9A41B8B097900E9D02A /* ViewController.m */,
+				007BE9C51B8B0DEC00E9D02A /* MyDefineAlertView.h */,
+				007BE9C61B8B0DEC00E9D02A /* MyDefineAlertView.m */,
 				007BE9A61B8B097900E9D02A /* Main.storyboard */,
 				007BE9A91B8B097900E9D02A /* Images.xcassets */,
 				007BE9AB1B8B097900E9D02A /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				007BE99F1B8B097900E9D02A /* AppDelegate.m in Sources */,
+				007BE9C71B8B0DEC00E9D02A /* MyDefineAlertView.m in Sources */,
 				007BE9A21B8B097900E9D02A /* MyAlertView.xcdatamodeld in Sources */,
 				007BE9A51B8B097900E9D02A /* ViewController.m in Sources */,
 				007BE99C1B8B097900E9D02A /* main.m in Sources */,
